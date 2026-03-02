@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+.content{
+    width: 100%;
+   text-align: center;
+}
+
+.card{
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 20px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    text-align: left;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+select, input{
+    padding: 10px 12px;
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    outline: none;
+}
+
+.input:focus{
+    border-color: lightgreen;
+    outline: none;
+}
+
+.btn-submit{
+    width: 100%;
+    font-weight: bold;
+    color: lightgreen;
+    border: 2px solid lightgreen;
+    background-color: white;
+}
+
+.btn-submit:hover{
+    color: white;
+    border: 2px solid lightgreen;
+    background-color: lightgreen;
+}
